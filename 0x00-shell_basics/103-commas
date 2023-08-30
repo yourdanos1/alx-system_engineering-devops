@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -aF | awk '{printf $1 ", "}' | awk "{print}" | sed 's/..$//'
