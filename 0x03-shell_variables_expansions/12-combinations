@@ -1,0 +1,2 @@
+#!/bin/bash
+echo {a..z}{a..z} | grep -E -v 'oo|([a-z])\1' | paste -d'\n' - -
