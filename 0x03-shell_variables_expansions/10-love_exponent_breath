@@ -1,2 +1,2 @@
 #!/bin/bash
-echo ^ | bc -l
+echo BREATH^LOVE | bc
