@@ -1,2 +1,2 @@
 #!/bin/bash
-printf %.2fn 98
+printf %.2fnn 
