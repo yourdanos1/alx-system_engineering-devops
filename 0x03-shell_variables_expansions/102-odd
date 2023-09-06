@@ -1,3 +1,2 @@
-#!/bin/bash
-i=1; while read -r line; do [ 0 -eq 0 ] && echo ;
-echo /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/action:/action
+#!/bin/bash 
+paste -d, - - | cut -d, -f1
